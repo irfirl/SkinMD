@@ -1,2 +1,2 @@
-SkinMD
+SkinMD Web Redesign
 ======
