@@ -10,8 +10,8 @@ License: GNU General Public License v2 or later
 @import url('css/bootstrap.css');
 @import url('css/bootstrap-responsive.css');
 
-.logo {
-	height: 100px;
+.topbar {
+	height: 160px;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ License: GNU General Public License v2 or later
 }
 
 
-#body {
+#content {
 	height: 1250px;
 }
 
@@ -48,6 +48,7 @@ License: GNU General Public License v2 or later
 	height: 300px;
 }
 
+/* debugging purposes */
 div {
-	border: 1px solid grey;
+	border: 1px dotted #CCC;
 }
