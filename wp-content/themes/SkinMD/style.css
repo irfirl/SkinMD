@@ -1,0 +1,53 @@
+/*
+Theme Name: SkinMD
+Theme URI: http://www.skinmdseattle.com
+Author: Alan Qiu, fkx001
+Author URI: http://www.alanqiu.com
+Description: Seattle SkinMD Custom Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+@import url('css/bootstrap.css');
+@import url('css/bootstrap-responsive.css');
+
+.logo {
+	height: 100px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav > li {
+	width: 20%;
+	text-align: center;
+}
+
+
+#body {
+	height: 1250px;
+}
+
+.slider {
+	height: 500px;
+}
+
+.testimonials {
+	height: 300px;
+}
+
+.news, .contact-map {
+	height: 450px;
+}
+
+.footer {
+	height: 300px;
+}
+
+div {
+	border: 1px solid grey;
+}

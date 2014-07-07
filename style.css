@@ -1,0 +1,160 @@
+/*
+Theme Name: SkinMD
+Theme URI: 
+Author: fkx001
+Author URI: 
+Description: 
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+	font-family: Arial;
+}
+
+#A {
+	background-color: #FFBF00;
+	height: 60px;
+	width: 960px;
+}
+
+#B {
+	background-color: #F9A799;
+	height: 960px;
+	width: 960px;
+}
+
+#C {
+	background-color: #00FF55;
+	height: 180px;
+	width: 960px;
+}
+
+#AA {
+	/*background-color: #0096D2;*/
+	height: 40px;
+	width: 130px;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	font-size: 220%;
+	font-family: impact;
+}
+
+#AB {
+	/*background-color: #0096D2;*/
+	height: 30px;
+	width: 150px;
+	margin-top: 30px;
+	margin-right: 20px;
+	float: right;
+	font-size: 150%;
+	font-family: impact;
+}
+
+#BA {
+	/*background-color: #0096D2;*/
+	height: 40px;
+	width: 920px;
+	margin-left: 20px;
+}
+
+.BAhref {
+	/*background-color: #FFFFFF;*/
+	display: inline-block;
+	height: 30px;
+	width: 160px;
+	font-size: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#BB {
+	background-color: #FFFFFF;
+	height: 400px;
+	width: 920px;
+	margin-left: 20px;
+}
+
+#BC {
+	background-color: #FFFFFF;
+	height: 160px;
+	width: 920px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#BD {
+	background-color: #FFFFFF;
+	height: 320px;
+	width: 610px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#BE {
+	background-color: #FFFFFF;
+	height: 320px;
+	width: 305px;
+	margin-left: 1px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#Cleft {
+	float: left;
+	margin-left: 20px;
+}
+
+#Cright {
+	float: right;
+	margin-right: 20px;
+}
+
+#CA {
+	margin-top: 15px;
+}
+
+#CB {
+	margin-top: 5px;
+}
+
+.CC {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#CCA {
+	background-color: #576C93;
+}
+
+#CCB {
+	background-color: #839096;
+}
+
+#CCC {
+	background-color: #FFBF00;
+}
+
+#CCD {
+	background-color: #5500FF;
+}
+
+#CC {
+	margin-top: 15px;
+}
+
+#CD {
+	margin-top: 15px;
+	text-align: right;
+	font-size: 120%;
+}
