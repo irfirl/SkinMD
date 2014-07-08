@@ -7,6 +7,14 @@ jQuery(function($) {
 			script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
 				'callback=initialize';
 			document.body.appendChild(script);
+			
+			// navbar dropdown
+			$('.nav ul').addClass('dropdown-menu');
+			var menuitem = $('.nav li');
+			if(menuitem.hasClass("page_item_has_children")) {
+				menuitem.children('a').addClass("dropdown-toggle");
+				menuitem.addClass('dropdown');
+			}
 	});
 	
 	function initialize() {

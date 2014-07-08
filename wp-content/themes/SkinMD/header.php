@@ -6,8 +6,11 @@
 		<link rel="icon" href="images/favicon.ico">
 		
 		<link type = 'text/css' rel = 'stylesheet' href = '<?php bloginfo('stylesheet_url');?>' />
-		<link type = 'text/css' rel = 'stylesheet' href = 'style.css' />
-		<link type = 'text/css' rel = 'stylesheet' href = 'css/bootstrap.css' />
+		
+		<link href="http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700italic,700" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
+
 		
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.9.0.min.js"></script>
@@ -17,20 +20,22 @@
 		<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/maplace.min.js"></script>
 		
-		<title><?php wp_title();?></title>
+		<title>Skin MD<?php wp_title();?></title>
+		
 	</head>
+	
 	<body <?php body_class(); ?>>
 		<div class="container">
 			<div class="top-menu">
 				<div class="topbar">
-					<div class="col-md-3 pull-left">
+					<div class="col-md-3 pull-left logo">
 						  <!-------custom logo and custom test and defualt logo text-------->
 						  <a href="<?php echo esc_url(home_url('/')) ; ?>" class="brand">
 								<img id="logo_image" src="<?php bloginfo('template_url'); ?>/images/logo.jpg"  />
 						  </a>
 						  <!------ end of logo -------->
 					</div>
-					<div class="pull-right">
+					<div class="top-contact-info">
 						<h2>206-000-0000</h2>
 					</div>
 				</div>
