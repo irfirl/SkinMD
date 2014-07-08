@@ -18,11 +18,18 @@ jQuery(function($) {
 	});
 	
 	function initialize() {
-		var mapOptions = {
-			  zoom: 12,
-			  center: new google.maps.LatLng(47.6150000, -122.3568213)
+		var myCenter=new google.maps.LatLng(47.679256, -122.290071);
+		var map_canvas = document.getElementById('gmap');
+		var map_options = {
+			center: myCenter,
+			zoom: 12,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
-
-		var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+		var map = new google.maps.Map(map_canvas, map_options);
+		var marker=new google.maps.Marker({
+			position:myCenter,
+		});
+		marker.setMap(map);
 	}
+	google.maps.event.addDomListener(window, 'load', initialize);
 });

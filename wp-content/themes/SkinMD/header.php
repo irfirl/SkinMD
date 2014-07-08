@@ -17,8 +17,7 @@
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 		
-		<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/maplace.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		
 		<title>Skin MD<?php wp_title();?></title>
 		

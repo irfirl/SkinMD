@@ -17,6 +17,14 @@ License: GNU General Public License v2 or later
 
 body {
 	font-size: 16px;
+	/*background-color: #E3E3E3*/
+}
+
+.topbar, #content {
+	background-color: #FFF;
+	
+	border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
 }
 
 .topbar {
@@ -150,12 +158,29 @@ h1,h2,h3,h4 {
 	margin-right: 25px;
 }
 
-.news, .contact-map {
-	height: 450px;
+.news, .front-map {
+	height: 400px;
+	padding: 20px;
+	overflow: hidden;
 }
+
+.contact-map {
+	height: 300px;
+}
+
 
 .news li {
 	list-style-type: square;
+	padding: 3px 10px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.news li+hr{
+	display: none;
 }
 
 .sidebar {
@@ -164,6 +189,9 @@ h1,h2,h3,h4 {
 
 .footer {
 	background-color: #EEE;
+	font-family: 'Avalon';
+	font-size: 18px;
+	color: grey;
 	height: 300px;
 }
 
@@ -174,3 +202,47 @@ div {
 }
 */
 
+#footerleft {
+	border: none;
+	float: left;
+	width: 30%;
+}
+
+#footerright {
+	border: none;
+	float: right;
+	width: 30%;
+}
+
+#LocationPhone {
+	border: none;
+	height: 150;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#Copyright {
+	border: none;
+	font-size: 15px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#logo{
+	border: none;
+}
+
+#FollowUs{
+	border: none;
+	font-size: 150%;
+	margin-top: 20px;
+	margin-right: 50px;
+	text-align: right;
+}
+
+.ShareLogo {
+	height: 70px;
+	width: 70px;
+	margin-top: 20px;
+}
