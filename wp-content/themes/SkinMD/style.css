@@ -10,6 +10,15 @@ License: GNU General Public License v2 or later
 @import url('css/bootstrap.css');
 @import url('css/bootstrap-responsive.css');
 
+@font-face {
+    font-family: Avalon;
+    src: url(fonts/Avalon Medium.ttf);
+}
+
+body {
+	font-size: 16px;
+}
+
 .topbar {
 	height: 160px;
 	overflow: hidden;
@@ -23,6 +32,12 @@ License: GNU General Public License v2 or later
 	float: right;
 	margin-top: 80px;
 	margin-right: 50px;
+	font-family: 'Avalon';
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Avalon';
+	/*font-weight: bold;*/
 }
 
 .navbar {
@@ -39,6 +54,16 @@ License: GNU General Public License v2 or later
 	text-align: center;
 	height: 50px;
 	font-family: 'Volkorn';
+	font-weight: bold
+}
+
+.navbar-nav > li > .dropdown-menu {
+	margin-left: 40px;
+}
+
+.dropdown-menu > li > a {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 /* hover open navbar */
@@ -123,6 +148,10 @@ License: GNU General Public License v2 or later
 	height: 450px;
 }
 
+.news li {
+	list-style-type: square;
+}
+
 .sidebar {
 	float: right;
 }
@@ -138,3 +167,4 @@ div {
 	border: 1px dotted #CCC;
 }
 */
+
