@@ -146,8 +146,10 @@ h1,h2,h3,h4 {
 }
 
 .testimonials {
-	height: 200px;
-	padding: 50px;
+	height: 170px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-family: 'Playfair';
 	font-size: 18px;
 	text-align: justify;
@@ -181,6 +183,10 @@ hr {
 
 .news li+hr{
 	display: none;
+}
+
+.glyphicon {
+	padding: 7px;
 }
 
 .sidebar {

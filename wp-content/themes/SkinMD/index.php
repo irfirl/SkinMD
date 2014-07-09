@@ -43,7 +43,7 @@
 					</p>
 				</div>
 				<div class="col-md-8 front-map">
-					<h2>Find Us!</h2>
+					<h2>Find Us</h2>
 					<hr>
 					<div class="contact-map" id="gmap"></div>
 				</div>

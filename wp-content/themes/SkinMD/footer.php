@@ -2,11 +2,9 @@
 	<footer>
 		<div id = "footerleft">
 			<div id = "LocationPhone">
-				SkinMD<br>
-				Location:<br>
-				6850 35th Ave NE, Seattle, WA<br>
-				Phone:<br>
-				206-000-0000<br>
+				Please contact us with any questions<br>
+				<span class="glyphicon glyphicon-map-marker"></span> 6850 35th Ave NE, Seattle, WA<br>
+				<span class="glyphicon glyphicon-earphone"></span> 206-000-0000<br>
 			</div>
 			<div id = "Copyright">
 				Copyright SkinMD
