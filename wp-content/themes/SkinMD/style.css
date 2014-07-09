@@ -15,6 +15,15 @@ License: GNU General Public License v2 or later
     src: url(fonts/Avalon Medium.ttf);
 }
 
+body a {
+	color: #779;
+}
+
+a:hover {
+	color: #BBA;
+	text-decoration: none;
+}
+
 body {
 	font-size: 16px;
 	/*background-color: #E3E3E3*/
@@ -23,8 +32,8 @@ body {
 .topbar, #content {
 	background-color: #FFF;
 	
-	border-left: 1px solid #E3E3E3;
-	border-right: 1px solid #E3E3E3;
+	/*border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;*/
 }
 
 .topbar {
@@ -157,7 +166,7 @@ h1,h2,h3,h4 {
 
 #testimonial_quotes {
 	float: left;
-	margin-right: 25px;
+	margin-right: 50px;
 }
 
 .news, .front-map {
@@ -209,19 +218,16 @@ div {
 */
 
 #footerleft {
-	border: none;
 	float: left;
 	width: 30%;
 }
 
 #footerright {
-	border: none;
 	float: right;
 	width: 30%;
 }
 
 #LocationPhone {
-	border: none;
 	height: 150;
 	font-size: 20px;
 	margin-left: 30px;
@@ -229,18 +235,12 @@ div {
 }
 
 #Copyright {
-	border: none;
 	font-size: 15px;
 	margin-left: 30px;
 	margin-top: 20px;
 }
 
-#logo{
-	border: none;
-}
-
 #FollowUs{
-	border: none;
 	font-size: 150%;
 	margin-top: 20px;
 	margin-right: 50px;
