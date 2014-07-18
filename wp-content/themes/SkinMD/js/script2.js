@@ -32,22 +32,4 @@ jQuery(function($) {
 		marker.setMap(map);
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
-
-	function initialize_contact_page() {
-		var myCenter=new google.maps.LatLng(47.679256, -122.290071);
-		var map_canvas = document.getElementById('gmap_contact_page');
-		var map_options = {
-			center: myCenter,
-			zoom: 12,
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		var map = new google.maps.Map(map_canvas, map_options);
-		var marker=new google.maps.Marker({
-			position:myCenter,
-		});
-		marker.setMap(map);
-	}
-	google.maps.event.addDomListener(window, 'load', initialize_contact_page);
-
-
 });

@@ -38,9 +38,9 @@
 				</div>
 				<div class="testimonials">
 					<img id="testimonial_quotes" src="<?php bloginfo('template_url'); ?>/images/quote.png" alt="quotes">
-					<p>
+					<blockquote class="blockquote-reverse" >
 					SkinMD’s team of cosmetic physicians and aestheticians is committed to working with you to develop an integrated plan to improve and enhance your skin’s health and reduce signs of aging. Dr. Balogun is a featured contributor for Botox, dermal fillers, ActiveFX and TotalFX laser resurfacing treatments, and other medical aesthetic topics on RealSelf.com.
-					</p>
+					</blockquote>
 				</div>
 				<div class="col-md-8 front-map">
 					<h2>Find Us</h2>

@@ -26,7 +26,7 @@ a:hover {
 
 body {
 	font-size: 16px;
-	background-color: #E3E3E3
+	/*background-color: #E3E3E3*/
 }
 
 .topbar, #content {
@@ -56,11 +56,7 @@ h1,h2,h3,h4 {
 	font-family: 'Avalon';
 	/*font-weight: bold;*/
 }
-.navbar-default {
-	background-color: white;
-	border: none;
-	border-bottom: 1px solid #CCC;
-}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -71,29 +67,20 @@ h1,h2,h3,h4 {
 }
 
 .nav > li {
+	padding: 0px 30px;
 	text-align: center;
 	height: 50px;
 	font-family: 'Avalon';
-	margin-left: 60px;
+	font-weight: bold
 }
 
 .navbar-nav > li > .dropdown-menu {
-	text-align: center;
-}
-
-#nav-bar > ul > li.page_item.page-item-2.page_item_has_children.dropdown > ul{
-	margin-left: -30px;
+	margin-left: 40px;
 }
 
 .dropdown-menu > li > a {
 	font-size: 18px;
-	padding: 0 5px 0 4px;
-	color: grey;
-}
-
-.children {
-	border: none;
-	border-radius: 0;
+	font-weight: bold;
 }
 
 /* hover open navbar */
@@ -113,7 +100,7 @@ h1,h2,h3,h4 {
     visibility: visible;
 }
 
-.nav .dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
@@ -140,16 +127,16 @@ h1,h2,h3,h4 {
 }
 /* hover nav end */
 
+
+
 #content {
-	overflow: hidden;
-	padding-bottom: 50px;
+	height: 1150px;
 }
 
 .slider {
 	max-height:500px;
 	width: auto;
 	overflow: hidden;
-	box-shadow: 0 8px 6px -6px #ccc;
 }
 
 .carousel {
@@ -168,13 +155,13 @@ h1,h2,h3,h4 {
 }
 
 .testimonials {
+	height: 170px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	font-family: 'Playfair';
 	font-size: 18px;
 	text-align: justify;
-	overflow: hidden;
 }
 
 #testimonial_quotes {
@@ -190,7 +177,6 @@ h1,h2,h3,h4 {
 
 .contact-map {
 	height: 300px;
-	box-shadow: 0 8px 6px -6px #ccc;
 }
 
 
@@ -222,7 +208,6 @@ hr {
 	font-size: 18px;
 	color: grey;
 	height: 300px;
-	overflow: hidden;
 }
 
 /* debugging purposes */
@@ -234,12 +219,12 @@ div {
 
 #footerleft {
 	float: left;
+	width: 30%;
 }
 
 #footerright {
 	float: right;
-	overflow: hidden;
-	padding-right: 20px;
+	width: 30%;
 }
 
 #LocationPhone {
@@ -266,43 +251,4 @@ div {
 	height: 70px;
 	width: 70px;
 	margin-top: 20px;
-}
-
-/* contact page */
-#contact_form{
-	width: 65%;
-	float: left;
-}
-
-#contact_form input, #contact_form .dropdown {
-	margin-bottom: 12px;
-}
-
-#contact_info {
-	font-size: 120%;
-	width: 35%;
-	float: right;
-	color: grey;
-}
-
-#contact_form, #contact_info {
-	padding: 30px 25px 30px 25px;
-}
-#input_date {
-	width: 150px;
-}
-
-@media (max-width: 958px) {
-	.nav .dropdown:hover .dropdown-menu {
-		display: none;
-	}
-	
-	#contact_info {
-		float: none;
-		width: 100%;
-	}
-	
-	#contact_form{
-		width: 100%;
-	}
 }
