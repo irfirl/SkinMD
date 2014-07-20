@@ -182,9 +182,13 @@ h1,h2,h3,h4 {
 	margin-right: 50px;
 }
 
+.testimonials blockquote {
+	padding-left: 60px;
+}
+
 .news, .front-map {
 	height: 400px;
-	padding: 20px;
+	padding: 40px;
 	overflow: hidden;
 }
 
@@ -224,13 +228,6 @@ hr {
 	height: 300px;
 	overflow: hidden;
 }
-
-/* debugging purposes */
-/*
-div {
-	border: 1px dotted #CCC;
-}
-*/
 
 #footerleft {
 	float: left;
@@ -304,5 +301,43 @@ div {
 	
 	#contact_form{
 		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.slider {
+		max-height: 350px;
+	}
+}
+
+@media (max-width: 600px) {
+	.slider {
+		max-height: 250px;
+	}
+}
+
+@media (max-width: 468px) {
+	#logo_image {
+		width: 300px;
+	}
+	.slider {
+		max-height: 200px;
+	}
+	
+	.testimonials {
+		padding: 10px;
+	}
+	
+	.news, .front-map {
+		padding: 10px;
+		overflow: hidden;
+	}
+	
+	#LocationPhone {
+		margin: 5px;
+	}
+	
+	#footerright {
+		padding-right: 0;
 	}
 }
