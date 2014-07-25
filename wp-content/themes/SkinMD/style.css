@@ -15,6 +15,12 @@ License: GNU General Public License v2 or later
     src: url(fonts/Avalon Medium.ttf);
 }
 
+.container {
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: 0 6px 12px 0 #bbb;
+}
+
 body a {
 	color: #779;
 }
@@ -25,8 +31,9 @@ a:hover {
 }
 
 body {
+	font-family: 'Open Sans';
 	font-size: 16px;
-	background-color: #E3E3E3
+	background-color: #EEE;
 }
 
 .topbar, #content {
@@ -182,6 +189,11 @@ h1,h2,h3,h4 {
 	margin-right: 50px;
 }
 
+.popover {
+  max-width: 600px;
+  width: auto;
+}
+
 .testimonials blockquote {
 	padding-left: 60px;
 }
@@ -193,8 +205,12 @@ h1,h2,h3,h4 {
 }
 
 .contact-map {
-	height: 300px;
-	box-shadow: 0 8px 6px -6px #ccc;
+	height: 270px;
+	border: 1px solid #ddd;
+}
+
+.front-map .contact-map {
+	border-radius: 15px;
 }
 
 
@@ -221,7 +237,7 @@ hr {
 }
 
 .footer {
-	background-color: #EEE;
+	background-color: #F5F5F5;
 	font-family: 'Avalon';
 	font-size: 18px;
 	color: grey;
@@ -269,6 +285,7 @@ hr {
 #contact_form{
 	width: 65%;
 	float: left;
+	overflow: hidden;
 }
 
 #contact_form input, #contact_form .dropdown {
@@ -286,9 +303,57 @@ hr {
 	padding: 30px 25px 30px 25px;
 }
 #input_date {
-	width: 150px;
+	max-width: 170px;
 }
 
+/* sidebar */
+.sidebar {
+	list-style-type: none;
+	margin: 20px 30px;
+}
+.sidebar ul {
+	list-style-type: square;
+	padding-left: 30px;
+}
+.sidebar #wp-calendar {
+	width: 100%;
+}
+.sidebar .widget {
+	margin-bottom: 30px;
+}
+.sidebar .widget_search label {
+	display: none;
+}
+.sidebar .post-date {
+	font-size: 12px;
+	padding-left: 15px;
+	display: block;
+}
+
+/* Single Page */
+.single_page {
+	padding: 20px 40px;
+	text-align: justify;
+}
+.post_thumbnail {
+	height: 250px;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+.post_thumbnail img {
+	min-width: 100%;
+	height: auto;
+	position: relative;
+	top: -50%;
+}
+.single_page img {
+	box-shadow: 0 8px 6px -6px #ccc;
+}
+.single_page .panel-heading {
+	height: 60px;
+}
+
+/* Responsive Code*/
 @media (max-width: 958px) {
 	.nav .dropdown:hover .dropdown-menu {
 		display: none;
@@ -304,9 +369,15 @@ hr {
 	}
 }
 
+
+
 @media (max-width: 768px) {
 	.slider {
 		max-height: 350px;
+	}
+	
+	.post_thumbnail  {
+		display: none;
 	}
 }
 
@@ -340,4 +411,5 @@ hr {
 	#footerright {
 		padding-right: 0;
 	}
+	
 }

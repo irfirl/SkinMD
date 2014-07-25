@@ -1,6 +1,5 @@
 jQuery(function($) {
 	$(document).ready( function() {
-	
 			// load google map
 			var script = document.createElement('script');
 			script.type = 'text/javascript';
@@ -15,6 +14,10 @@ jQuery(function($) {
 				menuitem.children('a').addClass("dropdown-toggle");
 				menuitem.addClass('dropdown');
 			}
+			
+			$('.popover-dismiss').popover({
+				trigger: 'hover'
+			})
 	});
 	
 	function initialize() {

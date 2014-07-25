@@ -5,16 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/favicon.ico">
 		
+		<link type = 'text/css' rel = 'stylesheet' href = '<?php bloginfo('template_url');?>/css/bootstrap.css' />
 		<link type = 'text/css' rel = 'stylesheet' href = '<?php bloginfo('stylesheet_url');?>' />
 		
 		<link href="http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700italic,700" rel="stylesheet" type="text/css">
-		<link href="//fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 
-
-		
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.9.0.min.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 		
 		<script src="https://maps.googleapis.com/maps/api/js"></script>

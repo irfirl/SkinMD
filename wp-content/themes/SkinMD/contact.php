@@ -16,9 +16,9 @@ Template Name: Contact
 					<div id = "contact_form">
 						<form action="">
 							<label>Name</label>
-							<input type="text" class="form-control" name="name">
+							<input type="text" class="form-control" name="name" required>
 							<label>Email</label>
-							<input type="text" class="form-control" name="email">
+							<input type="text" class="form-control" name="email" required>
 							<label>Area of Concern/Treatments</label>
 							<div class="dropdown">
 								<button class="btn btn-default dropdown-toggle" type="button" id="input_areaOfConcern" data-toggle="dropdown">
